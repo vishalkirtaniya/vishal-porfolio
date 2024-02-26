@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="x-icon"
+      href="./img-folder/icons-folder/logo.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vishal Kirtaniya Porfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body class="m-o p-0 bg-white text-black font-sans">
+    <!-- Navigation Bar -->
+    <header>
+      <div
+        class="xxs:w-[350px] sm:w-[600px] md:w-[720px] lg:w-[1020px] xl:w-[1200px] mx-auto"
+      >
+        <nav class="flex items-center justify-between xxs:h-16 lg:h-20 gap-8">
+          <div
+            class="xxs:h-[50px] md:h-[60px] xxs:w-[50px] md:w-[60px] lg:h-[80px] lg:w-[80px] rounded-full"
+          >
+            <img src="./img-folder/icons-folder/logo.svg" alt="" />
+          </div>
+          <div
+            class="dropdown-menu absolute -top-full left-0 max-lg:bg-white w-full items-center flex flex-col gap-6 text-grey font-semibold xxs:text-sm sm:text-md md:text-lg lg:text-2xl xl:text-2xl lg:static lg:flex-row lg:justify-between"
+          >
+            <ul
+              class="flex flex-col items-center justify-between mx-auto gap-6 lg:flex-row lg:gap-8"
+            >
+              <li><a class="hover:text-black" href="#home">Home</a></li>
+              <li>
+                <a class="hover:text-black" href="#my-services">My Services</a>
+              </li>
+              <li><a class="hover:text-black" href="#about-me">About Me</a></li>
+              <li><a class="hover:text-black" href="#toolkit">Toolkits</a></li>
+            </ul>
+            <a
+              href="#contact"
+              class="animate-me m-3 xs:mx-auto lg:mx-0 xxs:h-[40px] sm:h-[57px] md:h-[40px] lg:h-[57px] xl:h-[57px] xxs:w-[150px] sm:w-[180px] md:w-[180px] lg:w-[180px] xl:w-[190px] py-2 flex items-center justify-center rounded-full bg-black hover:bg-white hover:shadow-md text-white hover:text-black transition duration-300 ease-linear xxs:text-sm xxs:py-1 text-nowrap"
+            >
+              Get in Touch
+            </a>
+          </div>
+          <div id="js-navbar-toggle" class="toggle-button lg:hidden">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="body-section">
+      <!-- Home Page (Hero Section) -->
+      <section
+        id="home"
+        class="hero-section xxs:flex-none lg:flex xxs:h-[800px] sm:h-[900px] md:h-[1200px] lg:h-[900px] lg:items-center justify-between p-8 xxs:w-[350px] sm:w-[600px] md:w-[720px] lg:w-[1020px] xl:w-[1200px] mx-auto"
+      >
+        <div
+          class="hero-content xxs:text-center lg:text-left xxs:mx-auto mt-16 text-left lg:ml-10 lg:w-1/2"
+        >
+          <h1
+            class="animate-me xs:text-center lg:text-left xxs:text-sm sm:text-md md:text-lg lg:text-2xl xl:text-3xl mb-4 text-grey"
+          >
+            Hey, I'm <b>Vishal Kirtaniya</b>
+          </h1>
+          <p
+            class="animate-me xs:text-xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-black"
+          >
+            I make stunning websites that make your brand shine
+          </p>
+          <div
+            class="button-card-body animate-me m-3 xxs:mx-auto lg:mx-0 xxs:h-[40px] sm:h-[57px] md:h-[57px] lg:h-[57px] xl:h-[70px] xxs:w-[150px] sm:w-[180px] md:w-[180px] lg:w-[180px] xl:w-[190px] mt-10 py-4 flex items-center justify-center rounded-full bg-black hover:bg-white hover:shadow-md text-white hover:text-black transition duration-300 ease-linear xxs:text-sm xxs:py-1 text-nowrap"
+          >
+            <a class="transition ease-linear duration-300" href="#contact">
+              <b>Get in Touch</b>
+            </a>
+          </div>
+        </div>
+        <div
+          class="hero-image animate-me flex xxs:mx-auto xxs:my-10 lg:mx-0 lg:mt-16 justify-center items-center xs:h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:h-[600px] xs:w-[300px] sm:w-[350px] md:w-[400px] lg:w-[500px] xl:w-[600px] bg-offwhite rounded-full"
+        >
+          <img
+            src="./img-folder/hero-image.png"
+            alt="hero image"
+            class="w-full h-full animate-me rounded-full"
+          />
+        </div>
+      </section>
+
+      <!-- My Sevices Page-->
+      <section
+        id="my-services"
+        class="services-section text-black p-8 text-center container mx-auto xxs:h-[1600px] xs:h-[2100px] lg:h-[1200px] px-4 xs:w-[350px] sm:w-[600px] md:w-[720px] lg:w-[1020px] xl:w-[1200px]"
+      >
+        <h2
+          class="animate-me xxs:text-lg sm:text-2xl md:text-3xl lg:text-3xl xl:text-5xl font-bold mb-4"
+        >
+          My Services
+        </h2>
+        <div class="flex justify-center mx-auto relative">
+          <div
+            class="xxs:h-[1340px] xs:h-[1950px] md:h-[1960px] lg:h-[960px] xl:h-[940px] xxs:w-[80%] xs:w-[100%] md:w-[500px] lg:w-[80%] xl:w-[1100px] mx-auto absolute"
+          >
+            <div
+              class="flex mx-auto h-full xxs:w-full lg:w-[700px] xl:w-full bg-offwhite rounded-xl"
+            ></div>
+          </div>
+          <div
+            class="xs:grid-cols-1 grid lg:grid-cols-2 place-items-center xxs:gap-5 lg:gap-11 xl:gap-10 h-[900px] xxs:w-[320px] lg:w-[1000px] xl:w-[1200px] absolute top-[20px]"
+          >
+            <!-- services cards go here -->
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/web-development.svg"
+                  alt="web dev logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  Website Development
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  We specialize in creating custom websites that seamlessly
+                  blend aesthetics with functionality. We tailor the design and
+                  features to align with your unique brand and user experience.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <!-- Repeat for other services cards -->
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/responive web design.svg"
+                  alt="web dev logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  Responsive Web Designs
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  Prioritizing cross-device excellence, we employ responsive
+                  design techniques. Your site will dazzle on desktops, tablets,
+                  and smartphones alike, ensuring a seamless and delightful user
+                  experience.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:w-16 md:w-20"
+                  src="./img-folder/icons-folder/cross-browser-compatibility.svg"
+                  alt="web dev logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  Cross Browser Compatibility
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  We meticulously test and optimize your website for Chrome,
+                  Safari, Firefox, and Edge. No more broken layouts—just a
+                  consistent, delightful experience for all users. Let's make
+                  your site universally accessible!
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-14 sm:h-20"
+                  src="./img-folder/icons-folder/performance-optimization.svg"
+                  alt="web dev logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  Performance Optimization
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  We fine-tune every aspect of your website. From optimized code
+                  to compressed images, we ensure lightning-fast load times. A
+                  snappy site pleases users and boosts search engine rankings.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/maintenance-support.svg"
+                  alt="web dev logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  Maintainance & Support
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  We ensure your site remains secure, up-to-date, and
+                  glitch-free. From routine updates to troubleshooting, we've
+                  got you covered. Let us handle the technical details while you
+                  focus on your core business.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/hosting-services.svg"
+                  alt="web dev logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  Hosting Services
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  We offer robust hosting solutions. Safeguarding uptime,
+                  scalability, and data integrity, our seamless migration and
+                  proactive monitoring ensure your site is in capable hands.
+                  Trust us with your online success.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Page -->
+      <section
+        id="about-me"
+        class="xxs:flex-none lg:flex xxs:h-[800px] md:h-[1000px] lg:items-center justify-between p-8 xxs:w-[350px] sm:w-[600px] md:w-[720px] lg:w-[1020px] xl:w-[1200px] mx-auto"
+      >
+        <div
+          class="image-container flex mx-auto xxs:mt-16 items-center xxs:w-full lg:w-1/2"
+        >
+          <div
+            class="hero-image animate-me flex my-auto xs:mx-auto lg:mt-16 justify-center items-center xs:h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:h-[500px] xs:w-[300px] sm:w-[350px] md:w-[400px] lg:w-[500px] xl:w-[500px] bg-offwhite rounded-full"
+          >
+            <img
+              src="./img-folder/hero-image2.png"
+              alt="hero image 2"
+              class="w-full h-full animate-me rounded-full"
+            />
+          </div>
+        </div>
+        <div
+          class="about-content xxs:mx-auto xxs:mt-16 text-center lg:ml-10 xxs:w-[80%] lg:w-1/2"
+        >
+          <h2
+            class="animate-me lg:text-left font-semibold xxs:text-md sm:text-lg md:text-2xl lg:text-3xl xl:text-3xl text-black mb-4"
+          >
+            About Me
+          </h2>
+          <ol
+            class="animate-me lg:text-left xxs:text-sm sm:text-md md:text-lg lg:text-xl xl:text-xl mb-4 text-grey xxs:leading-normal md:leading-relaxed"
+          >
+            <li>
+              A<b> Self Taught Web developer</b> who loves making
+              <b>beautiful</b> and <b>fast websites</b>.
+            </li>
+            <li>
+              Excellent with
+              <b>HTML, CSS, JavaScript, React, and Tailwind CSS</b>.
+            </li>
+            <li>Enjoy designing and coding websites that meet user needs.</li>
+            <li>
+              Always learning new things and improving skills to deliver the
+              best results.
+            </li>
+          </ol>
+          <div
+            class="button-card-body animate-me m-3 xxs:mx-auto lg:mx-0 xxs:h-[40px] sm:h-[57px] md:h-[57px] lg:h-[57px] xl:h-[70px] xxs:w-[150px] sm:w-[180px] md:w-[180px] lg:w-[180px] xl:w-[190px] mt-10 py-4 flex items-center justify-center rounded-full bg-black hover:bg-white hover:shadow-md text-white hover:text-black transition duration-300 ease-linear xxs:text-sm xxs:py-1 text-nowrap"
+          >
+            <a class="transition ease-linear duration-300" href="#contact">
+              <b>Get in Touch</b>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Page -->
+      <section
+        id="toolkit"
+        class="services-section text-black p-8 text-center container mx-auto xxs:h-[1600px] xs:h-[2100px] lg:h-[1200px] px-4 xs:w-[350px] sm:w-[600px] md:w-[720px] lg:w-[1020px] xl:w-[1200px]"
+      >
+        <h2
+          class="animate-me xxs:text-lg sm:text-2xl md:text-3xl lg:text-3xl xl:text-5xl font-bold lg:mt-10 mb-4"
+        >
+          My Toolkit
+        </h2>
+        <p class="quote animate-me">
+          to produce creative and captivating websites, i use these tools
+        </p>
+        <div class="flex justify-center mx-auto relative">
+          <div
+            class="xxs:h-[1340px] xs:h-[1950px] md:h-[1960px] lg:h-[960px] xl:h-[940px] xxs:w-[80%] xs:w-[100%] md:w-[500px] lg:w-[80%] xl:w-[1100px] mx-auto absolute"
+          >
+            <div
+              class="flex mx-auto h-full xxs:w-full lg:w-[700px] xl:w-full bg-offwhite rounded-xl"
+            ></div>
+          </div>
+          <div
+            class="xxs:grid-cols-1 grid lg:grid-cols-2 place-items-center xxs:gap-5 lg:gap-11 xl:gap-10 h-[900px] xxs:w-[320px] lg:w-[1000px] xl:w-[1200px] absolute top-[20px]"
+          >
+            <!-- services cards go here -->
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/icons8-html-logo-100.png"
+                  alt="html logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  HTML
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  The backbone of web development, HTML structures content and
+                  defines the layout of web pages.
+                  <br />
+                  we wield its tags to create headings, paragraphs, lists,
+                  forms, and more.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <!-- Repeat for other services cards -->
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/icons8-css-logo-100.png"
+                  alt="css logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  CSS (Cascading Style Sheets)
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  CSS brings life to your designs by controlling the visual
+                  presentation of HTML elements. <br />
+                  We manipulate properties to achieve stunning aesthetics
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/icons8-javascript-100.png"
+                  alt="JavaScript logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  JavaScript
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  The dynamic language that adds interactivity and functionality
+                  to your websites. <br />
+                  We write scripts to handle user interactions, validate forms,
+                  and create dynamic content.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/icons8-react-128.png"
+                  alt="react logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  React.js
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  A popular JavaScript library for building user interfaces.
+                  <br />
+                  We create reusable components, manage state, and optimize
+                  performance.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/icons8-tailwind-css-192.png"
+                  alt="tailwindcss logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  TailwindCSS
+                </h2>
+                <p
+                  class="text-grey text-left xs:text-sm p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  A utility-first CSS framework that streamlines styling. <br />
+                  We compose classes to rapidly design responsive layouts and
+                  components.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+            <div
+              class="service-card flex animate-me bg-white text-black p-4 rounded-lg transition-transform duration-300 hover:translate-y-[-5px] shadow-md xxs:h-[200px] xxs:w-[300px] xs:h-[300px] xs:w-[450px] sm:h-[300px] sm:w-[600px] md:h-[300px] md:w-[600px] lg:h-[270px] lg:w-[450px] xl:w-[570px]"
+            >
+              <div
+                class="img-container h-full w-1/5 flex justify-center items-center"
+              >
+                <img
+                  class="xxs:h-10 md:h-20"
+                  src="./img-folder/icons-folder/gsap.svg"
+                  alt="gsap logo"
+                />
+              </div>
+              <div class="content-container h-full w-4/5">
+                <h2
+                  class="xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl font-semibold mb-1 text-left p-2 xxs:mt-1 md:mt-3"
+                >
+                  GSAP (GreenSock Animation Platform)
+                </h2>
+                <p
+                  class="text-grey xs:text-sm text-left p-2 transition-all duration-300 ease-in-out xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl"
+                >
+                  Our secret weapon for delightful animations. <br />
+                  We breathe life into static elements, creating smooth
+                  transitions and eye-catching effects.
+                </p>
+              </div>
+              <!-- Add services content here -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Me Page -->
+      <div id="contact" class="container w-full h-[70vh] mx-auto px-4">
+        <div
+          class="contact-me-container h-[700px] bg-white text-black p-8 text-center xxs:w-[350px] sm:w-[550px] md:w-[720px] lg:w-[1020px] xl:w-[1200px] mx-auto"
+        >
+          <h2
+            class="animate-me font-bold xxs:text-lg sm:text-2xl md:text-3xl lg:text-3xl xl:text-5xl text-black"
+          >
+            Get in Touch
+          </h2>
+          <p
+            class="quote animate-me xxs:text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl mb-4 text-grey"
+          >
+            "Let's create something amazing together!"
+          </p>
+          <div class="form-container mt-4 mb-10">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              class=""
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="4b6b57d7-513f-43a6-980c-2596c8439842"
+              />
+              <div class="name mt-3">
+                <h2
+                  class="animate-me font-medium text-left xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl xs:w-full lg:w-[650px] mx-auto pl-3"
+                >
+                  Full Name
+                </h2>
+                <input
+                  class="xxs:w-full lg:w-[650px] h-9 p-3 bg-offwhite xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl focus:border-[2px] focus:border-[#dedfe5] outline-none rounded-md border-grey m-2 mx-auto"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+              <div class="email mt-3">
+                <h2
+                  class="animate-me font-medium text-left xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl xs:w-full lg:w-[650px] mx-auto pl-3"
+                >
+                  Email
+                </h2>
+                <input
+                  class="xxs:w-full lg:w-[650px] h-9 p-3 bg-offwhite xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl focus:border-[2px] focus:border-[#dedfe5] outline-none rounded-md border-grey m-2 mx-auto"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="name mt-3">
+                <h2
+                  class="animate-me font-medium text-left xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl xs:w-full lg:w-[650px] mx-auto pl-3"
+                >
+                  Your Message
+                </h2>
+                <textarea
+                  class="xxs:w-full lg:w-[650px] h-24 p-3 bg-offwhite xxs:text-sm sm:text-lg md:text-lg lg:text-lg xl:text-xl focus:border-[2px] focus:border-[#dedfe5] outline-none rounded-md border-grey m-2 mx-auto"
+                  name="message"
+                  placeholder="Enter your message"
+                  rows="4"
+                ></textarea>
+              </div>
+              <button
+                class="animate-me my-3 mx-auto h-10 w-32 grid place-items-center rounded-full bg-black hover:bg-white hover:shadow-md text-white hover:text-black transition-colors duration-300 ease-linear"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-offwhite py-4">
+      <div class="container mx-auto text-center">
+        <p class="text-black">
+          &copy; 2024 Vishal Aditya Kirtaniya. All rights reserved.
+        </p>
+        <p class="text-semibold text-black">
+          Contact:
+          <a
+            href="mailto:vishalkirtaniyaofficial@gmail.com"
+            class="text-black hover:underline"
+            >vishalkirtaniyaofficial@gmail.com</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+
+    <script src="./src/nav-button.js"></script>
+    <script src="./src/transition-navbar.js"></script>
+  </body>
+</html>
