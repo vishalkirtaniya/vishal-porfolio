@@ -4,9 +4,6 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    fontFamily: {
-      sans: ["DM Sans", "sans-serif"],
-    },
     screens: {
       xxs: "350px",
       xs: "450px",
