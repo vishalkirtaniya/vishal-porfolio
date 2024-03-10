@@ -16,7 +16,7 @@ const animateOnScroll = (entries, observer) => {
       const distanceFromBottom = entry.boundingClientRect.bottom;
 
       // Check if the element is visible from either top or bottom
-      const isVisible = distanceFromTop > -800 || distanceFromBottom > 600; // Adjust the threshold
+      const isVisible = distanceFromTop > -200 || distanceFromBottom > 200; // Adjust the threshold
 
       if (isVisible) {
         entry.target.style.transitionDelay = "0s"; // No delay
