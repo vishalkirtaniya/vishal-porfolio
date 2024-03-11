@@ -17,7 +17,31 @@ html {
   scroll-behavior: smooth;
 }
 
-/*navigation bar*/
+.navbar-container {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style for the line */
+.navbar-container::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Start position at the center */
+  bottom: -2px;
+  width: 0; /* Initially no width */
+  height: 2px;
+  background-color: #4e4b66; /* Initial color of the line */
+  transition: width 0.3s ease; /* Transition effect for smoother animation */
+  transform: translateX(-50%); /* Move the line to center */
+}
+
+/* Style for the line on hover */
+.navbar-container:hover::after {
+  width: calc(100% + 20px); /* Set width to full width of the container */
+  transition: width 0.3s ease; /* Transition effect for smoother animation 
+  */
+}
 /* Body section styles */
 .body-section {
   transition: transform 0.3s ease-out; /* Add a smooth transition */
