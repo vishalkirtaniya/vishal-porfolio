@@ -12,7 +12,6 @@ gsap.utils.toArray(".animate-me").forEach((logo2, index) => {
       start: "top 90%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
       toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
-      markers: true,
     },
   });
 });
@@ -29,7 +28,6 @@ gsap.utils.toArray(".service-card1").forEach((logo2, index) => {
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
       toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
-      markers: true,
     },
   });
 });
