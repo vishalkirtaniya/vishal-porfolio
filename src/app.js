@@ -3,7 +3,7 @@ gsap.registerPlugin(ScrollTrigger);
 // default animation for the content
 gsap.utils.toArray(".animate-me").forEach((logo2, index) => {
   gsap.from(logo2, {
-    y: "-=50", // Start from above
+    y: "-=20", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -19,7 +19,7 @@ gsap.utils.toArray(".animate-me").forEach((logo2, index) => {
 // first service-card
 gsap.utils.toArray(".service-card1").forEach((logo2, index) => {
   gsap.from(logo2, {
-    x: "-=100", // Start from above
+    x: "-=50", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -35,7 +35,7 @@ gsap.utils.toArray(".service-card1").forEach((logo2, index) => {
 // 2nd service-card
 gsap.utils.toArray(".service-card2").forEach((logo2, index) => {
   gsap.from(logo2, {
-    x: "+=100", // Start from above
+    x: "+=50", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     scrollTrigger: {
@@ -50,7 +50,7 @@ gsap.utils.toArray(".service-card2").forEach((logo2, index) => {
 // 3rd service-card
 gsap.utils.toArray(".service-card3").forEach((logo2, index) => {
   gsap.from(logo2, {
-    x: "-=100", // Start from above
+    x: "-=50", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     scrollTrigger: {
@@ -65,7 +65,7 @@ gsap.utils.toArray(".service-card3").forEach((logo2, index) => {
 // 4th service-card
 gsap.utils.toArray(".service-card4").forEach((logo2, index) => {
   gsap.from(logo2, {
-    x: "+=100", // Start from above
+    x: "+=50", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     scrollTrigger: {
@@ -80,7 +80,7 @@ gsap.utils.toArray(".service-card4").forEach((logo2, index) => {
 // 5th service-card
 gsap.utils.toArray(".service-card5").forEach((logo2, index) => {
   gsap.from(logo2, {
-    x: "-=100", // Start from above
+    x: "-=50", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     scrollTrigger: {
@@ -94,7 +94,7 @@ gsap.utils.toArray(".service-card5").forEach((logo2, index) => {
 // 6th service-card
 gsap.utils.toArray(".service-card6").forEach((logo2, index) => {
   gsap.from(logo2, {
-    x: "+=100", // Start from above
+    x: "+=50", // Start from above
     opacity: 0,
     duration: 0.3, // Animation duration
     scrollTrigger: {
