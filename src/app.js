@@ -3,7 +3,7 @@ gsap.registerPlugin(ScrollTrigger);
 // first service-card
 gsap.fromTo(
   ".service-card1",
-  { x: "-50", opacity: 0 },
+  { x: -50, opacity: 0 },
   {
     x: 0, // Start from above
     opacity: 1,
@@ -21,9 +21,9 @@ gsap.fromTo(
 // 2nd service-card
 gsap.fromTo(
   ".service-card2",
-  { x: "+50", opacity: 0 },
+  { x: +50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -39,9 +39,9 @@ gsap.fromTo(
 // 3rd service-card
 gsap.fromTo(
   ".service-card3",
-  { x: "-50", opacity: 0 },
+  { x: -50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -57,9 +57,9 @@ gsap.fromTo(
 // 4th service-card
 gsap.fromTo(
   ".service-card4",
-  { x: "+50", opacity: 0 },
+  { x: +50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -74,9 +74,9 @@ gsap.fromTo(
 // 5th service-card
 gsap.fromTo(
   ".service-card5",
-  { x: "-50", opacity: 0 },
+  { x: -50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -91,9 +91,9 @@ gsap.fromTo(
 // 6th service-card
 gsap.fromTo(
   ".service-card6",
-  { x: "+50", opacity: 0 },
+  { x: +50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -109,9 +109,9 @@ gsap.fromTo(
 // 7th service-card
 gsap.fromTo(
   ".service-card7",
-  { x: "-50", opacity: 0 },
+  { x: -50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -126,9 +126,9 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".service-card8",
-  { x: "+50", opacity: 0 },
+  { x: +50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -143,9 +143,9 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".service-card9",
-  { x: "-50", opacity: 0 },
+  { x: -50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -160,9 +160,9 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".service-card10",
-  { x: "+50", opacity: 0 },
+  { x: +50, opacity: 0 },
   {
-    x: "0", // Start from above
+    x: 0, // Start from above
     opacity: 1,
     duration: 0.3, // Animation duration
     ease: "power1.out",
@@ -177,7 +177,7 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".service-card11",
-  { x: "-50", opacity: 0 },
+  { x: -50, opacity: 0 },
   {
     x: "0", // Start from above
     opacity: 1,
@@ -194,7 +194,7 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".service-card12",
-  { x: "+50", opacity: 0 },
+  { x: +50, opacity: 0 },
   {
     x: "0", // Start from above
     opacity: 1,
