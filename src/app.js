@@ -13,7 +13,7 @@ gsap.fromTo(
       trigger: ".service-card1",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -31,7 +31,7 @@ gsap.fromTo(
       trigger: ".service-card2",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -49,7 +49,7 @@ gsap.fromTo(
       trigger: ".service-card3",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -67,7 +67,7 @@ gsap.fromTo(
       trigger: ".service-card4",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -84,7 +84,7 @@ gsap.fromTo(
       trigger: ".service-card5",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -101,7 +101,7 @@ gsap.fromTo(
       trigger: ".service-card6",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -119,7 +119,7 @@ gsap.fromTo(
       trigger: ".service-card7",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -136,7 +136,7 @@ gsap.fromTo(
       trigger: ".service-card8",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -153,7 +153,7 @@ gsap.fromTo(
       trigger: ".service-card9",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -170,7 +170,7 @@ gsap.fromTo(
       trigger: ".service-card10",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -187,7 +187,7 @@ gsap.fromTo(
       trigger: ".service-card11",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
@@ -204,7 +204,7 @@ gsap.fromTo(
       trigger: ".service-card12",
       start: "top 80%", // Trigger animation when the logo is 80% from the top
       end: "top 10%", // Animation ends when the logo reaches 20% from the bottom
-      toggleActions: "play reverse restart reverse", // Animation plays when scrolled into view, reverses when scrolled out
+      toggleActions: "play reverse play reverse", // Animation plays when scrolled into view, reverses when scrolled out
     },
   }
 );
